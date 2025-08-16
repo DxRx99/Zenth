@@ -277,7 +277,7 @@ class TabbedCalculatorApp:
         minimize_canvas.pack(side='right', padx=5, pady=5)
         minimize_canvas.bind("<Button-1>", self.minimize_window)
 
-        title_label = tk.Label(self.title_bar, text="Calculator By dxrx99", bg='#1e1e1e', fg='white')
+        title_label = tk.Label(self.title_bar, text="Zenth ", bg='#1e1e1e', fg='white')
         title_label.pack(side='left', padx=10)
 
         # Bind dragging events
